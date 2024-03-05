@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+header{
+    background-image: url(../image/banner-bg.png);
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+header .text{
+    padding-top: 250px ;
+}
+#feature .card{
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(141, 10, 228, 0.397);
+    border-radius: 10px;
+}
+#workingprocess{
+    background-image: url(../image/work-process-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+#workingprocess .card{
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    background-color: aliceblue;  
+} 
